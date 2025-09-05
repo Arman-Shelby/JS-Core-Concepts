@@ -98,7 +98,7 @@ Strict equality  	undefined === null → false	  Different
 Truthy and Falsie:::
 
 there are 7 values in js are falsie:
-*false
+* false
 * 0 (and -0, 0n for BigInt zero)
 * "" (empty string)
 * null
