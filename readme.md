@@ -143,3 +143,17 @@ Compares values AND types.
 console.log(5 === "5");  // false (number vs string)
 console.log(5 === 5);    // true (same type, same value)
 console.log(null === undefined); // false (different types)
+
+
+
+
+
+..> 
+* kono ekta function er moddhe je scope/ {codes within function brackets} thake taake bole local scope ... or a block scope 
+* normally file e function er baire j scope thake taake bole global scope ....
+
+* Global scope er jinis j kono jagay use kora jaabe .. local scope er jinish local er baire use kora jabe na 
+
+* function declare korar purbe function call korle setake bole hoisting ... hoisting hobe shudu matro function er space er moddhe ,, or global hoile nijer level er moddhe ..... kintu let / const diye kokhono use korle seta hoisting hobe na ba declare er purbe use kora jabe na 
+
+
