@@ -114,3 +114,32 @@ everything beside this seven values are truthy
 Not(!) and Double not(!!)
 > not makes everything false /  gives the opposite boolean
 > double not makes everything actual boolean conversion of any value 
+
+
+>           == vs ===
+
+
+
+1. == (Loose Equality)
+
+Compares values only.
+
+Performs type coercion (tries to convert types before comparing).
+
+👉 Example:
+
+console.log(5 == "5");   // true (string "5" is converted to number 5)
+console.log(null == undefined); // true (special case)
+console.log(0 == false); // true (false coerced to 0)
+
+2. === (Strict Equality)
+
+Compares values AND types.
+
+❌ No type coercion — both value and type must match.
+
+👉 Example:
+
+console.log(5 === "5");  // false (number vs string)
+console.log(5 === 5);    // true (same type, same value)
+console.log(null === undefined); // false (different types)
