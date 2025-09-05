@@ -159,3 +159,5 @@ console.log(null === undefined); // false (different types)
 
 > Kono ekta function er parameter hisebe jodi kono ekta function ke pathano hoy setake bole callback function...
 > non  primitive values (object, array) are passed by reference
+
+ > A closure is when a function remembers the variables from its outer scope, even after that outer function has finished executing.
