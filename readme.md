@@ -94,4 +94,23 @@ Strict equality  	undefined === null → false	  Different
 
 
 
-aksdfgjksf 
+
+Truthy and Falsie:::
+
+there are 7 values in js are falsie:
+*false
+* 0 (and -0, 0n for BigInt zero)
+* "" (empty string)
+* null
+* undefined
+* NaN (Not a Number)
+* document.all (weird historical case, almost never used)
+
+
+everything beside this seven values are truthy 
+
+
+
+Not(!) and Double not(!!)
+> not makes everything false /  gives the opposite boolean
+> double not makes everything actual boolean conversion of any value 
