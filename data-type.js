@@ -24,11 +24,11 @@ const isPoor =  false;
 let  isKnown = undefined ;
 let isLocal; //evabe set kora uttom
 
-cont merit = null;
+const merit = null;
 
 // Non primitive data type
 
-const = { name: 'badal' , location: 'battery goli', subject: 'kabilar gf '}
+const object = { name: 'badal' , location: 'battery goli', subject: 'kabilar gf '}
 
 const friends = ['tom', 'tom', 'tom','tom']
 
