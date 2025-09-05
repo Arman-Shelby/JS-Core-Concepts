@@ -54,3 +54,43 @@ Comparison: Compared by reference (not by value).
 
 
 
+...----------------------------...
+
+Undefined?
+>
+*undefined is a primitive data type in JavaScript.
+
+*It means: a variable exists, but no value has been assigned yet.
+
+*It’s different from null, because null is an intentional empty value, while undefined usually means “not set”.
+
+Ways to get Undefined:
+* Uninitialized Variable
+* Function without return statement
+* Missing Function arguments
+* Accessing Non-existing object properties
+* Accessing array Elements out of bounds 
+* Void Operator
+* Explicit Assignment
+* Deleted Values
+
+
+Null Vs Undefined:
+> Null: An intentional empty value (sets it on purpose)
+> Undefined: A variable is declared but not assigned value
+
+
+> type of undefined is undefined>...... types of null is object
+
+
+Quick Table
+> Feature	    undefined        null
+Meaning 	Not assigned / missing	   Intentional empty value
+Set by	  JavaScript (by default)	   Developer (manually)
+Type	  "undefined"      	"object" (JS bug)
+Loose equality	   undefined == null → true	   Same
+Strict equality  	undefined === null → false	  Different
+
+
+
+
