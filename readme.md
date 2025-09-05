@@ -158,3 +158,4 @@ console.log(null === undefined); // false (different types)
 
 
 > Kono ekta function er parameter hisebe jodi kono ekta function ke pathano hoy setake bole callback function...
+> non  primitive values (object, array) are passed by reference
