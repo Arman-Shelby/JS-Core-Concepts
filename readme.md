@@ -157,3 +157,4 @@ console.log(null === undefined); // false (different types)
 * function declare korar purbe function call korle setake bole hoisting ... hoisting hobe shudu matro function er space er moddhe ,, or global hoile nijer level er moddhe ..... kintu let / const diye kokhono use korle seta hoisting hobe na ba declare er purbe use kora jabe na 
 
 
+> Kono ekta function er parameter hisebe jodi kono ekta function ke pathano hoy setake bole callback function...
